@@ -32,7 +32,7 @@ const TodoList: React.FC<TodoListProps> = ({
 
     return (
         <ul className='space-y-2'>
-            {todos.map((todo) => (
+            {[...todos].reverse().map((todo) => (
                 <li
                     key={todo.id}
                     className='flex items-center justify-between p-2 bg-gray-50 rounded-md'
