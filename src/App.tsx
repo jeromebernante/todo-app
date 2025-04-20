@@ -45,7 +45,7 @@ const App: React.FC = () => {
 	return (
 		<div className='min-h-screen bg-gray-100 flex flex-col items-center p-4'>
 			<div className='bg-white p-6 rounded-lg shadow-lg w-full max-w-md'>
-				<h1 className='text-2xl font-bold text-center mb-4'>Todo App</h1>
+				<h1 className='text-2xl font-bold text-center mb-4'>Todo App test</h1>
 				<TodoForm addTodo={addTodo}/>
 				<TodoList
 					todos={todos}
