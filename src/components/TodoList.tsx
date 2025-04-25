@@ -92,6 +92,7 @@ const TodoList: React.FC<TodoListProps> = ({
                                 />
                                 <span
                                     className={`flex-1 break-words ${todo.completed ? 'line-through text-gray-500' : ''}`}
+                                    style={{ maxWidth: '290px', wordBreak: 'break-word' }}
                                 >{todo.text}</span>
                                 <button
                                     onClick={() => handleEdit(todo)}
